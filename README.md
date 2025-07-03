@@ -42,8 +42,13 @@ EXPORT;
   python -m venv venv
   ```
 - Ative o ambiente virtual
+  ## CMD (Windows)/PowerShell
   ```bash
   .\venv\Scripts\activate
+  ```
+  ## Linux/Bash
+  ```bash
+  source venv/bin/activate
   ```
 - Adicione a biblioteca ANTLR ao ambiente:
   ```bash
@@ -62,7 +67,7 @@ EXPORT;
    ```bash
    Get-Content input.txt | python main.py
    ```
-   ## CMD
+   ## CMD (Windows)/Linux/Bash
    ```bash
    python main.py < input.txt
    ```
