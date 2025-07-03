@@ -1,0 +1,9 @@
+TITLE 'Cadastro pessoal';
+DESCRIPTION 'Testo descricao';
+ITEM TEXT (title, isRequired) VALUES ('Insira seu nome', 'true');
+ITEM TEXT (title, isRequired) VALUES ('Insira seu sobrenome', 'false');
+ITEM TEXT (title, isRequired) VALUES ('Insira seu email', 'true');
+ITEM MULTIPLE_CHOICE (title, choices, isRequired) VALUES ('Escolha uma opcao', 'false', 'Option 1', 'Option 2', 'Option 3');
+ITEM SECTION_HEADER (title, text) VALUES ('Titulo do section header', 'Sem perguntas, apenas anotacoes aqui');
+SHOW;   
+EXPORT;
