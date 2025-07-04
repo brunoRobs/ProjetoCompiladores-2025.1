@@ -2,6 +2,7 @@
 
 ## Equipe
 - Bruno Roberto
+- Evandson César
 - Nathália Bacalhau
 - Roberth Lins
 
